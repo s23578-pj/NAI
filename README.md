@@ -26,8 +26,6 @@ For detailed game rules, please visit [Hexapawn Rules on Wikipedia](https://en.w
 
 ## Getting Started
 
-![hexapawn](https://github.com/s23578-pj/NAI/assets/73029891/1cb073d5-f2f4-44e2-bf18-4a9d796590b2)
-
 
 ### Prerequisites
 
@@ -37,9 +35,8 @@ To run Hexapawn, you need to have Python 3 installed on your system. If you don'
 
 To install the required library, you can use `pip`:
 
-```bash (2 options)
-1# pip install easyAI
-2#(prefered) pip easyAI==2.0.12
+```bash
+pip easyAI==2.0.12
 ```
 ### How To Play
 
@@ -52,6 +49,9 @@ After the game ends, you will see the winner and the number of rounds played.
 ### Scoring
 
 The scoring is simple: each game won by Player 1 or Player 2 adds one point to their respective score. The game keeps track of the scores for you.
+
+### Game Example
+![hexapawn](https://github.com/s23578-pj/NAI/assets/73029891/1cb073d5-f2f4-44e2-bf18-4a9d796590b2)
 
 ### Contributing
 
