@@ -26,6 +26,9 @@ For detailed game rules, please visit [Hexapawn Rules on Wikipedia](https://en.w
 
 ## Getting Started
 
+![hexapawn](https://github.com/s23578-pj/NAI/assets/73029891/1cb073d5-f2f4-44e2-bf18-4a9d796590b2)
+
+
 ### Prerequisites
 
 To run Hexapawn, you need to have Python 3 installed on your system. If you don't have it, you can download it from the official [Python website](https://www.python.org/downloads/).
@@ -37,7 +40,7 @@ To install the required library, you can use `pip`:
 ```bash (2 options)
 1# pip install easyAI
 2#(prefered) pip easyAI==2.0.12
-
+```
 ### How To Play
 
 Run the game by executing the hexapawn.py script.
