@@ -36,7 +36,7 @@ To run Hexapawn, you need to have Python 3 installed on your system. If you don'
 To install the required library, you can use `pip`:
 
 ```bash
-pip easyAI==2.0.12
+pip3 easyAI==2.0.12
 ```
 ### How To Play
 
