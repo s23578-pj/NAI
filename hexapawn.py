@@ -318,7 +318,8 @@ if __name__ == "__main__":
     """
     ai = Negamax(10, scoring)
     while True:
-        print("Welcome to Hexapawn! You are going to lose with AI :)\n\nChoose player 1 or 2: ")
+        print("Welcome to Hexapawn! You are going to lose with AI :)\n\nTo play you need to input when it will be "
+              "requested exampple input 'A1 B1'\n\nChoose player 1 or 2: ")
         players = choose_player()
         game = Hexapawn(players)
         game.play()
