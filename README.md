@@ -48,7 +48,7 @@ After the game ends, you will see the winner and the number of rounds played.
 
 ### Scoring
 
-The scoring is simple: each game won by Player 1 or Player 2 adds one point to their respective score. The game keeps track of the scores for you.
+The scoring is simple: each game won by Player 1 or Player 2 adds one point.
 
 ### Game Example
 ![hexapawn](https://github.com/s23578-pj/NAI/assets/73029891/1cb073d5-f2f4-44e2-bf18-4a9d796590b2)
