@@ -1,60 +1,65 @@
-# NAI
-Narzędzia Sztucznej Inteligencji
-# Hexapawn Game
-
-Welcome to Hexapawn, a simple Python implementation of the Hexapawn board game. Hexapawn is a two-player abstract strategy game where the goal is to either reach the opponent's home row or leave them with no legal moves.
+# NAI 6
+Computer Vision - OpenCV - Exercise nr 3 - Gesture Recognition
 
 ## Table of Contents
 
-- [Game Rules](#game-rules)
 - [Authors](#authors)
+- [Program purpose](#program-purpose)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [How to Play](#how-to-play)
-- [Scoring](#scoring)
+  - [Prerequisites and Installation](#prerequisites-and-installation)
+  - [How to run the program](#how-to-run-the-program)
+  - [Gestures manual](#gestures-manual)
+  - [Output](#output)
 - [Contributing](#contributing)
 
-## Game Rules
-
-For detailed game rules, please visit [Hexapawn Rules on Wikipedia](https://en.wikipedia.org/wiki/Hexapawn#External_links).
-
 ## Authors
-
 - Alicja Szczypior
 - Krzysztof Szczypior
 
+## Program purpose
+
+This program is used for hand gestures detection in real time including major packages: Hand Gesture Recognizer using
+the MediaPipe framework and Tensorflow in OpenCV and Python. In this application we will detect:
+okay, peace, thumbs up, thumbs down, call me, stop, rock, live long, fist and smile.
+
 ## Getting Started
 
+### Prerequisites and Installation
 
-### Prerequisites
+Before run program install necessary Python packages:
+About version make sure you have at least
+1. Python – 3.x (we used Python 3.8.8 in this project)
+2. OpenCV – 4.5
 
-To run Hexapawn, you need to have Python 3 installed on your system. If you don't have it, you can download it from the official [Python website](https://www.python.org/downloads/).
+Run “pip install opencv-python” to install OpenCV.
+3. MediaPipe – 0.8.5
 
-### Installation
+Run “pip install mediapipe” to install MediaPipe.
+4. Tensorflow – 2.5.0
 
-To install the required library, you can use `pip`:
+Run “pip install tensorflow” to install the tensorflow module.
+5. Numpy – 1.19.3
 
-```bash
-pip3 easyAI==2.0.12
-```
-### How To Play
+If you are working on MAC just use pip3 command.
 
-Run the game by executing the hexapawn.py script.
-You will be prompted to choose a player (Player 1 or Player 2).
-Depending on your choice, the game will start, and you can make your moves.
-The game will continue until one player wins or there are no legal moves left.
-After the game ends, you will see the winner and the number of rounds played.
+### How to run the program
+Run just every .py file with script per project and used method or press the run button.
 
-### Scoring
+### Gestures manual
+"call me" -> music: on  
+"stop" or "live long" -> music: stop  
+"okay": -> music: pause  
+"smile" -> music: unpause  
+"thumbs up" -> music: volume up  
+"thumbs down" -> music: volume down  
 
-The scoring is simple: each game won by Player 1 or Player 2 adds one point.
+### Output
 
-### Game Example
-![hexapawn](https://github.com/s23578-pj/NAI/assets/73029891/1cb073d5-f2f4-44e2-bf18-4a9d796590b2)
+It needs to be downloaded from:
+https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_6_Computer_Vision/output_example/nai_opencv_test_compressed.mov
 
-### Contributing
+## Contributing
 
 If you would like to contribute to this project, please feel free to create issues, submit pull requests, or make suggestions. We welcome all contributions.
 
-Enjoy playing Hexapawn!
+Enjoy!
