@@ -56,7 +56,8 @@ Run just every .py file with script per project and used method or press the run
 ### Output
 
 It needs to be downloaded from:
-https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_6_Computer_Vision/output_example/nai_opencv_test_compressed.mov
+1. https://github.com/s23577/NAI_ZJAZD1/blob/main/ZJAZD_6_Computer_Vision/output_example/nai_opencv_test_compressed.mov
+2. https://github.com/s23578-pj/NAI/tree/main/ZJAZD_6_Computer_Vision/output_example
 
 ## Contributing
 
