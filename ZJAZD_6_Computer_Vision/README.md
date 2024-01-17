@@ -43,7 +43,7 @@ Run “pip install tensorflow” to install the tensorflow module.
 If you are working on MAC just use pip3 command.
 
 ### How to run the program
-Run just every .py file with script per project and used method or press the run button.
+Run just handDetection.py file with script per project and used method or press the run button.
 
 ### Gestures manual
 "call me" -> music: on  
